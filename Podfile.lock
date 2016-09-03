@@ -1,0 +1,42 @@
+PODS:
+  - DateTools (1.7.0)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - FMDBMigrationManager (1.4.1):
+    - FMDBMigrationManager/System (= 1.4.1)
+  - FMDBMigrationManager/System (1.4.1):
+    - FMDB/standard (>= 2.3)
+  - Mantle (1.5.5):
+    - Mantle/extobjc (= 1.5.5)
+  - Mantle/extobjc (1.5.5)
+  - MTLFMDBAdapter (0.1.8):
+    - FMDB (~> 2.3)
+    - Mantle (~> 1.5)
+
+DEPENDENCIES:
+  - DateTools
+  - FMDB (~> 2.3)
+  - FMDBMigrationManager (~> 1.3)
+  - Mantle (= 1.5.5)
+  - MTLFMDBAdapter (from `https://github.com/summerblue/MTLFMDBAdapter`)
+
+EXTERNAL SOURCES:
+  MTLFMDBAdapter:
+    :git: https://github.com/summerblue/MTLFMDBAdapter
+
+CHECKOUT OPTIONS:
+  MTLFMDBAdapter:
+    :commit: 8a567630ad9ef38388a48ac6600e7a7a35316cdb
+    :git: https://github.com/summerblue/MTLFMDBAdapter
+
+SPEC CHECKSUMS:
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  FMDBMigrationManager: d52007f328ea0665e8985ca8a33500707aef084f
+  Mantle: 1b29072a707453975b200a173cf77ec1e2810b75
+  MTLFMDBAdapter: f9849788d9e3a1c6662ef0ce600dd3e4a538a723
+
+PODFILE CHECKSUM: 2920fc29485e3a51c7123cbd154fdaad42488170
+
+COCOAPODS: 1.0.1

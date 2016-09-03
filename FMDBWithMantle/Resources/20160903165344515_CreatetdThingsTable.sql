@@ -1,0 +1,6 @@
+CREATE TABLE tdThings(
+id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+content TEXT,
+creatAt TEXT
+);
+ALTER TABLE tdThings ADD userName TEXT;

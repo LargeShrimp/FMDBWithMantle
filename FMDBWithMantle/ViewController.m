@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "TDDBManager.h"
+#import "TDThingsEntity.h"
 @interface ViewController ()
 
 @end
@@ -16,12 +17,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+
+    
+    //insert
+//    NSDictionary *things = @{@"content":@"this is an text a",@"creatAt":@"2016-45-12",@"id":@3,@"userName":@"taitanxiamis"};
+//    TDThingsEntity * entity =     [TDThingsEntity entityFromDictionary:things];
+//    [TDDBManager insertOnDuplicateUpdate:entity];
+    
+    
+    //delete
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+    
 }
 
 @end
