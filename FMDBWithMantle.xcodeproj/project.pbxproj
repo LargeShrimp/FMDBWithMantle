@@ -22,7 +22,6 @@
 		8488DB171D7A77550073B95E /* BaseDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488DB161D7A77550073B95E /* BaseDBManager.m */; };
 		8488DB1B1D7A77940073B95E /* TDDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8488DB1A1D7A77940073B95E /* TDDBManager.m */; };
 		8488DB241D7A949A0073B95E /* 20160903131805255_CreatetdThingsTable.sql in Resources */ = {isa = PBXBuildFile; fileRef = 8488DB231D7A949A0073B95E /* 20160903131805255_CreatetdThingsTable.sql */; };
-		8488DB281D7AC7630073B95E /* 20160903165344515_CreatetdThingsTable.sql in Resources */ = {isa = PBXBuildFile; fileRef = 8488DB271D7AC7630073B95E /* 20160903165344515_CreatetdThingsTable.sql */; };
 		BDDDB203EBB75795DA660505 /* libPods-FMDBWithMantleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4C99B7B060C192CC5EF428 /* libPods-FMDBWithMantleUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -74,7 +73,6 @@
 		8488DB191D7A77940073B95E /* TDDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDBManager.h; sourceTree = "<group>"; };
 		8488DB1A1D7A77940073B95E /* TDDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDBManager.m; sourceTree = "<group>"; };
 		8488DB231D7A949A0073B95E /* 20160903131805255_CreatetdThingsTable.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20160903131805255_CreatetdThingsTable.sql; sourceTree = "<group>"; };
-		8488DB271D7AC7630073B95E /* 20160903165344515_CreatetdThingsTable.sql */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 20160903165344515_CreatetdThingsTable.sql; sourceTree = "<group>"; };
 		AA676A1F6F75AEBB22110824 /* Pods-FMDBWithMantle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBWithMantle.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBWithMantle/Pods-FMDBWithMantle.release.xcconfig"; sourceTree = "<group>"; };
 		B3D8FF14B311C334D66A0B3C /* Pods-FMDBWithMantleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBWithMantleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBWithMantleUITests/Pods-FMDBWithMantleUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B437C11AC3F6DCCA89BFB46F /* Pods-FMDBWithMantleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FMDBWithMantleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FMDBWithMantleTests/Pods-FMDBWithMantleTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -210,7 +208,6 @@
 			isa = PBXGroup;
 			children = (
 				8488DB231D7A949A0073B95E /* 20160903131805255_CreatetdThingsTable.sql */,
-				8488DB271D7AC7630073B95E /* 20160903165344515_CreatetdThingsTable.sql */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -351,7 +348,6 @@
 			files = (
 				8488DAE71D7A732B0073B95E /* LaunchScreen.storyboard in Resources */,
 				8488DAE41D7A732B0073B95E /* Assets.xcassets in Resources */,
-				8488DB281D7AC7630073B95E /* 20160903165344515_CreatetdThingsTable.sql in Resources */,
 				8488DAE21D7A732B0073B95E /* Main.storyboard in Resources */,
 				8488DB241D7A949A0073B95E /* 20160903131805255_CreatetdThingsTable.sql in Resources */,
 			);
