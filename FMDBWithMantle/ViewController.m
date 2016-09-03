@@ -21,7 +21,7 @@
 
     
     //insert
-    NSDictionary *things = @{@"content":@"I am a spider man !",@"creatAt":@"2016-45-12",@"id":@4,@"userName":@"taitanxiamis"};
+    NSDictionary *things = @{@"content":@"I am a spider man !",@"creatAt":@"2016-45-12",@"userName":@"taitanxiamis"};
     TDThingsEntity * entity =     [TDThingsEntity entityFromDictionary:things];
     [TDDBManager insertOnDuplicateUpdate:entity];
     
@@ -35,10 +35,10 @@
    NSArray *models =  [TDDBManager findByColumn:@"content" columnValue:@"I am a spider man !" withClass:[TDThingsEntity class]];
 
     //delete with model main key
-    BOOL success = [TDDBManager deleteUsingPrimaryKeys:models.firstObject];
-    if (success) {
-        NSLog(@"删除成功");
-    }
+//    BOOL success = [TDDBManager deleteUsingPrimaryKeys:models.firstObject];
+//    if (success) {
+//        NSLog(@"删除成功");
+//    }
 }
 
 - (void)didReceiveMemoryWarning {
